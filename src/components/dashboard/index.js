@@ -4,9 +4,9 @@ import React from 'react';
 function Dashboard() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 w-full rounded">
-            <div className="border-b-gray border-b-2 border-b-solid">
-            <p className="text-xs text-textBlack font-bold uppercase pb-5">Your Dashboard</p>
-            {/*<button className="text-blue uppercase text-xs mt-3">see more</button>*/}
+            <div className="flex align-middle border-b-gray border-b-2 border-b-solid pb-5">
+                <span className="text-xs text-textBlack font-bold uppercase">Your Dashboard</span>
+                <button className="text-blue uppercase text-xs ml-auto">go to stats</button>
             </div>
 
             <div className="mt-5">

@@ -9,9 +9,9 @@ import Visitor5 from '../../assets/images/Visitor-5.png'
 function Visitors() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 w-full rounded">
-            <div className="border-b-gray border-b-2 border-b-solid">
-                <p className="text-xs text-textBlack font-bold uppercase pb-5">Visitors</p>
-                {/*<button className="text-blue uppercase text-xs mt-3">see more</button>*/}
+            <div className="flex align-middle border-b-gray border-b-2 border-b-solid pb-5">
+                <span className="text-xs text-textBlack font-bold uppercase">Visitors</span>
+                <button className="text-blue uppercase text-xs ml-auto">view all</button>
             </div>
 
             <div className="flex flex-col">
