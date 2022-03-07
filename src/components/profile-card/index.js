@@ -26,11 +26,11 @@ function ProfileCard() {
                     <p className="text-sm text-textBlack mt-4">Freelance UX/UI designer, 80+ projects in web design,
                         mobile apps (iOS & android) and creative projects. Open to offers.</p>
                     <button
-                        className="mt-4 bg-blue text-white uppercase rounded px-9 py-2.5 text-xs inline-flex items-center">
+                        className="w-44 h-8 mt-4 bg-blue text-white uppercase rounded justify-center text-xs inline-flex items-center">
                         <span>CONTACT INFO</span>
                     </button>
                     <button
-                        className="ml-4 mt-4 bg-white text-blue uppercase border-solid border-blue border-2 rounded px-9 py-2.5 text-xs inline-flex items-center">
+                        className="w-44 h-8 ml-4 mt-4 bg-white text-blue uppercase border-solid border-blue border-2 rounded justify-center text-xs inline-flex items-center">
                         <span>1,043 connections</span>
                     </button>
                 </div>
