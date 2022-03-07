@@ -12,10 +12,25 @@ function ProjectsCard() {
             <Slider
                 dots={false}
                 slidesToShow={3}
-                slidesToScroll={3}
+                slidesToScroll={1}
                 autoplay={true}
                 autoplaySpeed={3000}
             >
+                <div className="mt-6">
+                    <img src={slider1} height={160} width={250} alt="zara"/>
+                    <p className="text-xs font-bold text-textBlack mt-3">Zara redesign concept</p>
+                    <p className="text-xs text-textBlack mt-1">UX/UI design, 15.07.2019</p>
+                </div>
+                <div className="mt-6">
+                    <img src={slider2} height={160} width={250} alt="zara"/>
+                    <p className="text-xs font-bold text-textBlack mt-3">SCTHON event brand identity</p>
+                    <p className="text-xs text-textBlack mt-1">Graphic design, 03.31.2019</p>
+                </div>
+                <div className="mt-6">
+                    <img src={slider3} height={160} width={250} alt="zara"/>
+                    <p className="text-xs font-bold text-textBlack mt-3">Drozd. Brand identity. 2016</p>
+                    <p className="text-xs text-textBlack mt-1">Graphic design, 03.04.2016</p>
+                </div>
                 <div className="mt-6">
                     <img src={slider1} height={160} width={250} alt="zara"/>
                     <p className="text-xs font-bold text-textBlack mt-3">Zara redesign concept</p>
