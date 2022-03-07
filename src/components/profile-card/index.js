@@ -1,6 +1,8 @@
 import React from 'react';
 import HeaderPhoto from '../../assets/images/header-bg.png';
 import Ellipse from '../../assets/images/Ellipse.png';
+import PremiumLogo from '../../assets/logo/linkedln-premium.png';
+import LocationIcon from '../../assets/icons/location-icon.png';
 
 function ProfileCard() {
     return (
@@ -13,12 +15,22 @@ function ProfileCard() {
                 <div className="w-44 w-52 bg-white ">
                 </div>
                 <div className="ml-14 mr-11 mt-6">
-                    <p className="font-bold text-lg text-textBlack">Dmitry Kargaev</p>
-                    <p className="text-sm text-textBlack mt-4">Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.</p>
-                    <button className="mt-4 bg-blue text-white uppercase rounded px-9 py-2.5 text-xs inline-flex items-center">
+                    <div className="flex items-center">
+                        <span className="font-bold text-lg text-textBlack">Dmitry Kargaev</span>
+                        <img className="w-4 h-4 ml-2" src={PremiumLogo}/>
+                        <div className="flex items-center justify-end ml-auto">
+                            <img className="w-3 h-3 mr-2" src={LocationIcon}/>
+                            <span className="text-textBlack text-sm">Saint Petersburg, Russian Federation</span>
+                        </div>
+                    </div>
+                    <p className="text-sm text-textBlack mt-4">Freelance UX/UI designer, 80+ projects in web design,
+                        mobile apps (iOS & android) and creative projects. Open to offers.</p>
+                    <button
+                        className="mt-4 bg-blue text-white uppercase rounded px-9 py-2.5 text-xs inline-flex items-center">
                         <span>CONTACT INFO</span>
                     </button>
-                    <button className="ml-4 mt-4 bg-white text-blue uppercase border-solid border-blue border-2 rounded px-9 py-2.5 text-xs inline-flex items-center">
+                    <button
+                        className="ml-4 mt-4 bg-white text-blue uppercase border-solid border-blue border-2 rounded px-9 py-2.5 text-xs inline-flex items-center">
                         <span>1,043 connections</span>
                     </button>
                 </div>

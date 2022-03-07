@@ -40,7 +40,6 @@ function Navbar() {
                         Notices
                     </a>
                 </div>
-
             </div>
         </nav>
     );
