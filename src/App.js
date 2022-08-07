@@ -12,6 +12,7 @@ import Visitors from "./components/visitors";
 import Courses from "./components/courses";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ButtonGroup from "./components/button-group";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <div className="flex flex-row gap-10 max-w-[1180px] w-full mx-auto">
         <div className="w-full max-w-[850px] gap-y-10 flex flex-col">
           <ProfileCard />
+            <ButtonGroup />
           <AboutCard />
           <ProjectsCard />
           <SkillsCard />
