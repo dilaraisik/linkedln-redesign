@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-
 import slider1 from "../../assets/images/Slider-1.png";
 import slider2 from "../../assets/images/Slider-2.png";
 import slider3 from "../../assets/images/Slider-3.png";
@@ -8,7 +7,10 @@ import slider3 from "../../assets/images/Slider-3.png";
 function ProjectsCard() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 rounded w-full">
-            <p className="text-lg font-bold">Projects</p>
+            <div className="flex">
+                <p className="text-lg font-bold">Projects</p>
+                <p className="text-lg ml-3 text-silver">3 of 12</p>
+            </div>
             <Slider
                 dots={false}
                 slidesToShow={3}

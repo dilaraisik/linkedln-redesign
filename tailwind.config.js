@@ -21,6 +21,7 @@ module.exports = {
           blue: '#0275B1',
           white: '#ffffff',
           textBlack: '#181818',
+          silver: 'C0C0C0',
           gray: '#F4F4F4',
           footerBg: '#F7F9FB',
           footerLine: '#E7E7E7',
