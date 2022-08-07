@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function AboutCard() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 w-full rounded">

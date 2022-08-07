@@ -3,9 +3,7 @@ import Logo from '../../assets/logo/Footer-Logo.png';
 import linkedinText from '../../assets/logo/LinkedIn.png';
 import QuestionIcon from '../../assets/icons/circle-question-regular.svg';
 
-
 function Footer() {
-
     return (
         <div className=" w-full bg-footerBg border-t-footerLine border-t-solid border-t-2 container-md p-7 mt-10">
             <div className="grid grid-cols-4 gap-4">

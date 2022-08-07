@@ -17,30 +17,6 @@ function Navbar() {
                     </svg>
                 </button>
             </div>
-            <div className="flex flex-row gap-10 max-w-[1180px] w-full mx-auto">
-                <div className="w-full max-w-[850px] flex uppercase">
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4">
-                        Feed
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4">
-                        Network
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4">
-                        Jobs
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-4">
-                        Chat
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black">
-                        Notices
-                    </a>
-                </div>
-            </div>
         </nav>
     );
 }

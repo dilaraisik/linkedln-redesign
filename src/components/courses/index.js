@@ -3,7 +3,6 @@ import Course1 from "../../assets/images/Course-1.png";
 import Course2 from "../../assets/images/Course-2.png";
 import Course3 from "../../assets/images/Course-3.png";
 
-
 function Courses() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 w-full rounded">

@@ -1,7 +1,6 @@
 import React from 'react';
 import Rectangle from '../../assets/vectors/Rectangle.png';
 
-
 function SkillsCard() {
     return (
         <div className="bg-white border-white border-solid border-2 container-md p-7 rounded w-full">

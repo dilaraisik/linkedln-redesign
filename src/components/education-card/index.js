@@ -1,7 +1,6 @@
 import React from 'react';
 import EducationLogo from '../../assets/images/Rectangle 2.2.png';
 
-
 function EducationCard() {
     return (
         <div className="bg-white border-white border-solid border-2 p-7 rounded w-full">
